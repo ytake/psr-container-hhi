@@ -23,8 +23,7 @@
   ],
   "require": {
     "hhvm": ">=3.0",
-    "container-interop/container-interop": "~1.0",
-    "psr/container": "dev-master"
+    "psr/container": "~1.0"
   },
   "minimum-stability": "stable"
 }

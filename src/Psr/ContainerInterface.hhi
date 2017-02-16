@@ -16,7 +16,7 @@ interface ContainerInterface
      *
      * @param string $id Identifier of the entry to look for.
      *
-     * @throws NotFoundExceptionInterface  No entry was found for this identifier.
+     * @throws NotFoundExceptionInterface  No entry was found for **this** identifier.
      * @throws ContainerExceptionInterface Error while retrieving the entry.
      *
      * @return mixed Entry.
@@ -32,7 +32,7 @@ interface ContainerInterface
      *
      * @param string $id Identifier of the entry to look for.
      *
-     * @return boolean
+     * @return bool
      */
     public function has(string $id): bool;
 }
