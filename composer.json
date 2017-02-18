@@ -22,7 +22,7 @@
     }
   ],
   "require": {
-    "hhvm": ">=3.0",
+    "hhvm": ">=3.9.0",
     "psr/container": "~1.0"
   },
   "minimum-stability": "stable"
