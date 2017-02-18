@@ -1,6 +1,6 @@
 {
   "name": "ytake/psr-container-hhi",
-  "description": "Typechecker definitions for PSR-11 / container-interop",
+  "description": "Typechecker definitions for PSR-11",
   "keywords": [
     "hhvm",
     "hack",
@@ -9,7 +9,6 @@
     "psr-11",
     "definition",
     "container",
-    "container-interop",
     "container-interface"
   ],
   "homepage": "https://github.com/ytake/psr-container-hhi",
@@ -18,7 +17,8 @@
   ],
   "authors": [
     {
-      "name": "Yuuki Takezawa"
+      "name": "Yuuki Takezawa",
+      "email": "yuuki.takezawa@comnect.jp.net"
     }
   ],
   "require": {
