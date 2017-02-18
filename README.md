@@ -4,12 +4,20 @@ This repository contains .hhi files for the interfaces defined in Container Inte
 
 It is based on the PHP interface definitions and comments available here:
 
-https://github.com/container-interop/container-interop
-
 https://github.com/php-fig/container
 
+## install 
 ```bash
 $ hhvm --php $(which composer) require ytake/psr-container-hhi
+```
+
+or 
+
+```json
+"require": {
+  "hhvm": ">=3.9.0",
+  "ytake/psr-container-hhi": "~1.0"
+},
 ```
 
 ```bash
